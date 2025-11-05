@@ -1,0 +1,17 @@
+7.2 Online Exam Scoring
+
+Algorithm:
+
+1. Input student answers and correct answers.
+
+2. Initialize score = 0.
+
+3. For each answer pair (s, c): if s == c, increment score by 1.
+
+4. Calculate percentage = (score / total_questions) * 100.
+
+5. Output score and percentage.
+
+output:
+
+(3,60.0)
